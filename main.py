@@ -151,6 +151,7 @@ while True:
         if event == 'Power':
             # processing = cv2.pow(img, 1.2)
             # image_after(processing, filename)
+            # Change
             general_processing(img, operator.pow, 1.2)
         if event == 'Blue':
             general_processing_color(blue, operator.add, value_changing, image1)
